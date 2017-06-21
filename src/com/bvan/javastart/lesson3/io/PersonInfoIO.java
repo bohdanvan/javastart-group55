@@ -1,3 +1,5 @@
+package com.bvan.javastart.lesson3.io;
+
 import java.util.Scanner;
 
 /**

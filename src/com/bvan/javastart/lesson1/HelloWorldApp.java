@@ -1,3 +1,5 @@
+package com.bvan.javastart.lesson1;
+
 public class HelloWorldApp {
 
     // psvm + Tab
