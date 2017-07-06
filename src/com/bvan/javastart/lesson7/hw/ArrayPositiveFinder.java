@@ -16,6 +16,10 @@ public class ArrayPositiveFinder {
     }
 
     public static int findFirstPositiveElemIndex(int[] array) {
+        if (array == null) {
+            throw new IllegalArgumentException("null value");
+        }
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] > 0) {
                 return i;
